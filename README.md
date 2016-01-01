@@ -5,7 +5,7 @@ Copy [Basics | Redux](http://rackt.org/redux/docs/basics/index.html "Basics | Re
 ## Note
 
 - pure functionは副作用を持たない関数
-- `type`はシリアライズ出来るものを推奨してるので`Symbol`はダメそう
+- `type`はシリアライズ出来るものを推奨してるので`Symbol`はダメそう?
 - Reducerの名詞とも動詞ともいえない命名規則は `combineReducers` のため
     - `todos`とか`visibilityFilter`が何を受け取り何を返すのか関数名から分からない
     - reducesの中にいるというコンテキストがあって少しだけ意味を省略できてるけど。。
@@ -41,3 +41,4 @@ Copy [Basics | Redux](http://rackt.org/redux/docs/basics/index.html "Basics | Re
 - Reduxはデータが中心な気がする
     - APIが複雑(省略出来ることによる複雑)なのでデータがどこからきてるのかが、コード上で追うのが難しい感じがする
     - 読みやすいコードという設計ではないのかも
+- Reactじゃなくて[dekujs/deku](https://github.com/dekujs/deku "dekujs/deku")でもいいのではとかおもった
