@@ -1,7 +1,8 @@
 {
   "name": "redux-basic-tutorial",
   "version": "1.0.0",
-  "description": "http://rackt.org/redux/docs/basics/Actions.html ",
+  "private": true,
+  "description": "http://rackt.org/redux/docs/basics/Actions.html",
   "main": "index.js",
   "scripts": {
     "build": "browserify src/index.js -o build.js",
