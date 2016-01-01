@@ -11,7 +11,7 @@ Copy [Basics | Redux](http://rackt.org/redux/docs/basics/index.html "Basics | Re
     - reducesの中にいるというコンテキストがあって少しだけ意味を省略できてるけど。。
 - [rackt/react-redux](https://github.com/rackt/react-redux "rackt/react-redux")のAPIはどうみても変
     - 使わないほうがよさそう
-    - [egghead.io_redux_course_notes/18-Extracting_Container_Components_(VisibileTodoList_&_AddTodo).md at 0d9988f06241e1648ce6e45b65b77eae3bce541b · tayiorbeii/egghead.io_redux_course_notes](https://github.com/tayiorbeii/egghead.io_redux_course_notes/blob/0d9988f06241e1648ce6e45b65b77eae3bce541b/18-Extracting_Container_Components_(VisibileTodoList_%26_AddTodo).md "egghead.io_redux_course_notes/18-Extracting_Container_Components_(VisibileTodoList_&amp;_AddTodo).md at 0d9988f06241e1648ce6e45b65b77eae3bce541b · tayiorbeii/egghead.io_redux_course_notes")
+    - [egghead.io_redux_course_notes/18-Extracting_Container_Components_(VisibileTodoList_&_AddTodo).md at master · tayiorbeii/egghead.io_redux_course_notes](https://github.com/tayiorbeii/egghead.io_redux_course_notes/blob/master/18-Extracting_Container_Components_(VisibileTodoList_&_AddTodo).md "egghead.io_redux_course_notes/18-Extracting_Container_Components_(VisibileTodoList_&amp;_AddTodo).md at master · tayiorbeii/egghead.io_redux_course_notes")
     - 普通に`subscribe` and `unsubscribe`したほうがわかりやすさがある。
     - flux-utilsの[Container](https://github.com/facebook/flux/blob/master/docs/Flux-Utils.md#container "Container")の方がよく隠せてる
 
