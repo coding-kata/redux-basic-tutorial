@@ -1,6 +1,6 @@
 // LICENSE : MIT
 "use strict";
-import React, {Component,PropTypes} from "react";
+import React, {Component, PropTypes} from "react";
 export default class AddTodo extends Component {
     handleClick(event) {
         event.preventDefault();
@@ -11,9 +11,9 @@ export default class AddTodo extends Component {
     }
 
     render() {
-        return <div>
-            <input type="text" ref="input"/>
-            <button onClick={this.handleClick.bind(this)}>
+        return <div className="AddTodo">
+            <input className="AddTodo-input" type="text" ref="input"/>
+            <button className="AddTodo-button" onClick={this.handleClick.bind(this)}>
                 Add
             </button>
         </div>

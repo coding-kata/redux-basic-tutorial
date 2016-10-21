@@ -18,7 +18,7 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <p>
+            <p className="Footer">
                 Show:
                 {' '}
                 {this.renderFilter('SHOW_ALL', 'All')}

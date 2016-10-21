@@ -5,10 +5,11 @@
   "description": "http://rackt.org/redux/docs/basics/Actions.html",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build && http-server ./",
     "build": "browserify src/index.js -o build.js",
     "watch": "watchify -d src/index.js -o build.js",
     "prepublish": "npm run --if-present build",
-    "test": "mocha"
+    "test": "testcafe chrome,safari e2e/"
   },
   "browserify": {
     "transform": [
@@ -27,7 +28,7 @@
     "babelify": "^7.2.0",
     "browserify": "^12.0.1",
     "espower-babel": "^4.0.1",
-    "mocha": "^2.3.4",
+    "http-server": "^0.9.0",
     "power-assert": "^1.2.0",
     "watchify": "^3.6.1"
   },
