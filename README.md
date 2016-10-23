@@ -42,3 +42,10 @@ Copy [Basics | Redux](http://rackt.org/redux/docs/basics/index.html "Basics | Re
     - APIが複雑(省略出来ることによる複雑)なのでデータがどこからきてるのかが、コード上で追うのが難しい感じがする
     - 読みやすいコードという設計ではないのかも
 - Reactじゃなくて[dekujs/deku](https://github.com/dekujs/deku "dekujs/deku")でもいいのではとかおもった
+
+## E2Eテスト
+
+[TestCafe](http://devexpress.github.io/testcafe/ "TestCafe")を使った。
+
+    npm start &
+    npm test
