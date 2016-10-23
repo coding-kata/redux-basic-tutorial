@@ -9,7 +9,7 @@
     "build": "browserify src/index.js -o build.js",
     "watch": "watchify -d src/index.js -o build.js",
     "prepublish": "npm run --if-present build",
-    "test": "testcafe chrome,safari e2e/"
+    "test": "testcafe chrome e2e/"
   },
   "browserify": {
     "transform": [

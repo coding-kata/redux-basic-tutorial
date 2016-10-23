@@ -16,10 +16,11 @@ export default class AddTodoPage {
     }
 
     async getInput() {
-        return await querySelector('.AddTodo-input')
+        return querySelector('.AddTodo-input')
     }
 
     async getButton() {
-        return await querySelector('.AddTodo-button')
+        return querySelector('.AddTodo-button')
     }
+
 }

@@ -10,6 +10,10 @@ export default class TodoItemPage {
         this.item = item;
     }
 
+    get visible() {
+        return this.item.visible;
+    }
+
     get title() {
         return this.item.textContent;
     }
