@@ -30,6 +30,7 @@
     "espower-babel": "^4.0.1",
     "http-server": "^0.9.0",
     "power-assert": "^1.2.0",
+    "testcafe": "^0.9.0",
     "watchify": "^3.6.1"
   },
   "dependencies": {
